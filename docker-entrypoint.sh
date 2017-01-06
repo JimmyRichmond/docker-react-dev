@@ -6,4 +6,5 @@ if [ ! -d /app/$APPNAME ]; then
 fi
 
 cd /app/$APPNAME
+npm install
 npm start
