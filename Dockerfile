@@ -1,6 +1,6 @@
 FROM node:latest
 MAINTAINER dylanrhysscott
-RUN npm install -g create-react-app
+RUN npm install -g yarn create-react-app
 COPY docker-entrypoint.sh /
 RUN chmod +x docker-entrypoint.sh
 VOLUME /app
