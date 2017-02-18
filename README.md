@@ -14,5 +14,5 @@ This docker image provides a development environment with [Create React App](htt
 
 ### Example
 
-`docker run -ti -p 3000:3000 -e APPNAME=react-app -v $(pwd):/app dylanrhysscott/docker-react-dev` - React
-`docker run -ti -p 3000:3000 -e APPNAME=react-app -e REDUX=true -v $(pwd):/app dylanrhysscott/docker-react-dev` - React + Redux
+* `docker run -ti -p 3000:3000 -e APPNAME=react-app -v $(pwd):/app dylanrhysscott/docker-react-dev` - React
+* `docker run -ti -p 3000:3000 -e APPNAME=react-app -e REDUX=true -v $(pwd):/app dylanrhysscott/docker-react-dev` - React + Redux
